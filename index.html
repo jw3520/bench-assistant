@@ -3,12 +3,48 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
+  <title>Manifest Converter - Neurocle</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;700&display=swap" rel="stylesheet">
   <link href='/style.css' rel='stylesheet'>
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
+  <div id="app">
+    <header class="app-header">
+      <div class="logo">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16 3.5C9.09644 3.5 3.5 9.09644 3.5 16C3.5 22.9036 9.09644 28.5 16 28.5C22.9036 28.5 28.5 22.9036 28.5 16C28.5 9.09644 22.9036 3.5 16 3.5Z" stroke="#4a90e2" stroke-width="2"/>
+          <path d="M16 9V16L21 21" stroke="#4a90e2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>Manifest Converter</span>
+      </div>
+    </header>
+
+    <main class="app-main">
+      <div class="converter-card">
+        <div class="converter-header">
+          <h2>Convert Manifest to CSV</h2>
+          <p>Select a <code>manifest.json</code> file to extract key metrics and download as a CSV.</p>
+        </div>
+        <div class="converter-body">
+          <div id="file-drop-area">
+            <svg class="upload-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z" fill="#d0d6de"/></svg>
+            <p class="upload-text">Drag & Drop your file here</p>
+            <p class="upload-subtext">or</p>
+            <label for="jsonFile" class="file-upload-button">Browse Files</label>
+            <input type="file" id="jsonFile" accept=".json" hidden>
+            <p id="fileName" class="file-name"></p>
+          </div>
+        </div>
+        <div class="converter-footer">
+          <button id="convertBtn" disabled>Convert & Download CSV</button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="app-footer">
+      <p>&copy; 2026 Neurocle. All rights reserved.</p>
+    </footer>
+  </div>
   <script defer type="text/javascript" src="/main.js"></script>
 </body>
 </html>
