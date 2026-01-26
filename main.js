@@ -3,6 +3,26 @@ document.addEventListener('DOMContentLoaded', () => {
     const convertBtn = document.getElementById("convertBtn");
     const fileNameSpan = document.getElementById("fileName");
     const fileDropArea = document.getElementById("file-drop-area");
+    const themeToggle = document.getElementById("theme-toggle");
+    const sunIcon = document.getElementById("sun-icon");
+    const moonIcon = document.getElementById("moon-icon");
+
+    // Theme toggle
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (prefersDark || localStorage.getItem('theme') === 'dark') {
+        document.body.classList.add('dark-mode');
+        sunIcon.style.display = 'none';
+        moonIcon.style.display = 'inline-block';
+    }
+
+    themeToggle.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+        const isDarkMode = document.body.classList.contains('dark-mode');
+        localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+        sunIcon.style.display = isDarkMode ? 'none' : 'inline-block';
+        moonIcon.style.display = isDarkMode ? 'inline-block' : 'none';
+    });
+
 
     // Handle file selection via browse button
     jsonFileInput.addEventListener('change', () => {
