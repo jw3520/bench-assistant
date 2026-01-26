@@ -1,4 +1,5 @@
 name = "new-vibe"
+main = "_worker.js"
 compatibility_date = "2026-01-26"
 
 [site]
