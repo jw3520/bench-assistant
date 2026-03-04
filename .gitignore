@@ -1,0 +1,32 @@
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDEs and Editors
+.vscode/
+.idea/
+.idx/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables & Sensitive data
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node modules (just in case)
+node_modules/
+
+# Build outputs
+dist/
+build/
