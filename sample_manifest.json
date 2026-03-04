@@ -1,15 +1,15 @@
 {
-  "last_updated_time": "2026-03-04T06:19:23Z",
+  "last_updated_time": "2026-03-04T06:39:43Z",
   "sequence_entries": {
-    "0": { "config_idx": 0, "start_time": "2026-02-26T00:0:00Z", "training_report": { "metrics": { "test/neurocle_accuracy": 0.90, "test/neurocle_precision": 0.85, "test/neurocle_recall": 0.88, "test/neurocle_f1": 0.87 } } },
+    "0": { "config_idx": 0, "start_time": "2026-02-26T00:00:00Z", "training_report": { "metrics": { "test/neurocle_accuracy": 0.90, "test/neurocle_precision": 0.85, "test/neurocle_recall": 0.88, "test/neurocle_f1": 0.87 } } },
     "1": { "config_idx": 1, "start_time": "2026-02-26T00:30:00Z", "training_report": { "metrics": { "test/neurocle_accuracy": 0.91, "test/neurocle_precision": 0.86, "test/neurocle_recall": 0.89, "test/neurocle_f1": 0.88 } } },
-    "2": { "config_idx": 2, "start_time": "2026-02-26T01:0:00Z", "training_report": { "metrics": { "test/neurocle_accuracy": 0.92, "test/neurocle_precision": 0.87, "test/neurocle_recall": 0.90, "test/neurocle_f1": 0.89 } } },
+    "2": { "config_idx": 2, "start_time": "2026-02-26T01:00:00Z", "training_report": { "metrics": { "test/neurocle_accuracy": 0.92, "test/neurocle_precision": 0.87, "test/neurocle_recall": 0.90, "test/neurocle_f1": 0.89 } } },
     "3": { "config_idx": 3, "start_time": "2026-02-26T01:30:00Z", "training_report": { "metrics": { "test/neurocle_accuracy": 0.93, "test/neurocle_precision": 0.88, "test/neurocle_recall": 0.91, "test/neurocle_f1": 0.90 } } },
-    "4": { "config_idx": 4, "start_time": "2026-02-26T02:0:00Z", "training_report": { "metrics": { "test/neurocle_accuracy": 0.94, "test/neurocle_precision": 0.89, "test/neurocle_recall": 0.92, "test/neurocle_f1": 0.91 } } },
+    "4": { "config_idx": 4, "start_time": "2026-02-26T02:00:00Z", "training_report": { "metrics": { "test/neurocle_accuracy": 0.94, "test/neurocle_precision": 0.89, "test/neurocle_recall": 0.92, "test/neurocle_f1": 0.91 } } },
     "5": { "config_idx": 5, "start_time": "2026-02-26T02:30:00Z", "training_report": { "metrics": { "test/neurocle_accuracy": 0.95, "test/neurocle_precision": 0.90, "test/neurocle_recall": 0.93, "test/neurocle_f1": 0.92 } } },
-    "6": { "config_idx": 6, "start_time": "2026-02-26T03:0:00Z", "training_report": { "metrics": { "test/neurocle_accuracy": 0.96, "test/neurocle_precision": 0.91, "test/neurocle_recall": 0.94, "test/neurocle_f1": 0.93 } } },
+    "6": { "config_idx": 6, "start_time": "2026-02-26T03:00:00Z", "training_report": { "metrics": { "test/neurocle_accuracy": 0.96, "test/neurocle_precision": 0.91, "test/neurocle_recall": 0.94, "test/neurocle_f1": 0.93 } } },
     "7": { "config_idx": 7, "start_time": "2026-02-26T03:30:00Z", "training_report": { "metrics": { "test/neurocle_accuracy": 0.97, "test/neurocle_precision": 0.92, "test/neurocle_recall": 0.95, "test/neurocle_f1": 0.94 } } },
-    "8": { "config_idx": 8, "start_time": "2026-02-26T04:0:00Z", "training_report": { "metrics": { "test/neurocle_accuracy": 0.98, "test/neurocle_precision": 0.93, "test/neurocle_recall": 0.96, "test/neurocle_f1": 0.95 } } },
+    "8": { "config_idx": 8, "start_time": "2026-02-26T04:00:00Z", "training_report": { "metrics": { "test/neurocle_accuracy": 0.98, "test/neurocle_precision": 0.93, "test/neurocle_recall": 0.96, "test/neurocle_f1": 0.95 } } },
     "9": { "config_idx": 9, "start_time": "2026-02-26T04:30:00Z", "training_report": { "metrics": { "test/neurocle_accuracy": 0.99, "test/neurocle_precision": 0.94, "test/neurocle_recall": 0.97, "test/neurocle_f1": 0.96 } } }
   }
 }
