@@ -118,10 +118,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     const metrics = seqData.training_report?.metrics || {};
                     return {
                         "config_idx": seqData.config_idx,
-                        "accuracy": ((metrics["test/neurocle_accuracy"] || 0) * 100).toFixed(2),
-                        "precision": ((metrics["test/neurocle_precision"] || 0) * 100).toFixed(2),
-                        "recall": ((metrics["test/neurocle_recall"] || 0) * 100).toFixed(2),
-                        "f1_score": ((metrics["test/neurocle_f1"] || 0) * 100).toFixed(2),
+                        "accuracy": (( (metrics["test/neurocle_accuracy"] || metrics["valid/neurocle_accuracy"]) || 0) * 100).toFixed(2),
+                        "precision": (( (metrics["test/neurocle_precision"] || metrics["valid/neurocle_precision"]) || 0) * 100).toFixed(2),
+                        "recall": (( (metrics["test/neurocle_recall"] || metrics["valid/neurocle_recall"]) || 0) * 100).toFixed(2),
+                        "f1_score": (( (metrics["test/neurocle_f1"] || metrics["valid/neurocle_f1"]) || 0) * 100).toFixed(2),
                         "train_Time": `${Math.round(trainTimes[i] / 60)}m`
                     };
                 });
