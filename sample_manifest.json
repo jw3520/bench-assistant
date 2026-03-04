@@ -1,0 +1,7 @@
+{
+  "last_updated_time": "2026-02-26T10:00:00Z",
+  "sequence_entries": {
+    "0": { "config_idx": 0, "start_time": "2026-02-26T09:00:00Z", "training_report": { "metrics": { "test/neurocle_accuracy": 0.95, "test/neurocle_precision": 0.94, "test/neurocle_recall": 0.96, "test/neurocle_f1": 0.95 } } },
+    "1": { "config_idx": 1, "start_time": "2026-02-26T09:30:00Z", "training_report": { "metrics": { "test/neurocle_accuracy": 0.97, "test/neurocle_precision": 0.96, "test/neurocle_recall": 0.98, "test/neurocle_f1": 0.97 } } }
+  }
+}

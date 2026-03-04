@@ -45,14 +45,14 @@
         <div class="converter-card">
           <div class="converter-header">
             <h2>Convert Manifest to CSV</h2>
-            <p>Select a <code>manifest.json</code> file to extract key metrics and download as a CSV.</p>
+            <p>Select a <code>manifest.json</code> file to extract key metrics and download as a CSV. <a href="./sample_manifest.json" download class="sample-link">Download Sample</a></p>
           </div>
           <div class="converter-body">
             <div id="file-drop-area">
               <svg class="upload-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z" fill="#d0d6de"/></svg>
               <p class="upload-text">Drag & Drop your file here</p>
               <p class="upload-subtext">or</p>
-              <label for="jsonFile" class="file-upload-button">Browse Files</label>
+              <label  class="file-upload-button">Browse Files</label>
               <input type="file" id="jsonFile" accept=".json" hidden>
               <p id="fileName" class="file-name"></p>
             </div>
@@ -67,14 +67,14 @@
         <div class="converter-card">
           <div class="converter-header">
             <h2>Compile Metrics to CSV</h2>
-            <p>Select one or more <code>metrics(*).json</code> files to compile.</p>
+            <p>Select one or more <code>metrics(*).json</code> files to compile. <a href="./sample_metrics.json" download class="sample-link">Download Sample</a></p>
           </div>
           <div class="converter-body">
             <div id="file-drop-area-2">
               <svg class="upload-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z" fill="#d0d6de"/></svg>
               <p class="upload-text">Drag & Drop your files here</p>
               <p class="upload-subtext">or</p>
-              <label for="jsonFiles" class="file-upload-button">Browse Files</label>
+              <label  class="file-upload-button">Browse Files</label>
               <input type="file" id="jsonFiles" accept=".json" multiple hidden>
               <p id="fileNames" class="file-name"></p>
             </div>
