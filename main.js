@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Theme Setup ---
     function setupTheme() {
-        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-        if (prefersDark || localStorage.getItem('theme') === 'dark') {
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme !== 'light') {
             document.body.classList.add('dark-mode');
             sunIcon.style.display = 'none';
             moonIcon.style.display = 'inline-block';
