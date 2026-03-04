@@ -1,0 +1,6 @@
+{
+  "test/neurocle_accuracy": 0.92,
+  "test/neurocle_precision": 0.87,
+  "test/neurocle_recall": 0.90,
+  "test/neurocle_f1": 0.89
+}

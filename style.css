@@ -372,3 +372,24 @@ body.dark-mode #convertBtn:disabled {
 body.dark-mode #results-table tbody tr:hover {
     background-color: #2a2a2a;
 }
+/* Sample Button Styles */
+.sample-button {
+  display: inline-block;
+  padding: 4px 12px;
+  margin: 4px;
+  font-size: 12px;
+  color: var(--text-secondary);
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.sample-button:hover {
+  background: var(--accent-color);
+  color: white;
+  border-color: var(--accent-color);
+}
+.sample-group {
+  margin-top: 8px;
+}
