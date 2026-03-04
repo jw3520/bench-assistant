@@ -183,10 +183,10 @@ document.addEventListener('DOMContentLoaded', () => {
             processedMetrics = validResults.map(({ file, data }) => {
                 return {
                     "metrics_index": extractIndex(file.name),
-                    "accuracy": parseFloat(((data["test/neurocle_accuracy"] || 0) * 100).toFixed(2)),
-                    "precision": parseFloat(((data["test/neurocle_precision"] || 0) * 100).toFixed(2)),
-                    "recall": parseFloat(((data["test/neurocle_recall"] || 0) * 100).toFixed(2)),
-                    "f1": parseFloat(((data["test/neurocle_f1"] || 0) * 100).toFixed(2)),
+                    "accuracy": parseFloat((( (data["test/neurocle_accuracy"] || data["valid/neurocle_accuracy"]) || 0) * 100).toFixed(2)),
+                    "precision": parseFloat((( (data["test/neurocle_precision"] || data["valid/neurocle_precision"]) || 0) * 100).toFixed(2)),
+                    "recall": parseFloat((( (data["test/neurocle_recall"] || data["valid/neurocle_recall"]) || 0) * 100).toFixed(2)),
+                    "f1": parseFloat((( (data["test/neurocle_f1"] || data["valid/neurocle_f1"]) || 0) * 100).toFixed(2)),
                 };
             });
 
