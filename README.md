@@ -4,6 +4,12 @@
 >
 > 🚀 **실시간 서비스 접속:** [https://bench-assistant.pages.dev/](https://bench-assistant.pages.dev/)
 
+
+---
+
+## 📺 프로젝트 시연
+> **Note:** 아래는 실제 동작 화면입니다.
+![Bench-Assistant Demo](./image.png)
 사내 성능 검증(Performance Validation) 프로세스에서 발생하는 복잡한 JSON 데이터를 쉽고 빠르게 분석 가능한 CSV 형식으로 변환해주는 웹 서비스입니다. 실험 결과 매니페스트와 개별 지표 파일들을 수동으로 정리하는 번거로움을 최소화하고, 즉각적인 수치 확인과 리포트 생성을 돕습니다.
 
 ---
