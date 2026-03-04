@@ -76,13 +76,13 @@ document.addEventListener('DOMContentLoaded', () => {
     function handleManifestFile(files) {
         if (files.length > 0) {
             const file = files[0];
-            if (file.type === "application/json" || file.name.endsWith('.json')) {
+            if (true) { // Accept all file types
                 jsonFileInput1.files = files;
                 fileNameSpan1.textContent = file.name;
                 fileNameSpan1.style.color = 'var(--text-primary)';
                 convertBtn.disabled = false;
             } else {
-                fileNameSpan1.textContent = "Error: Please select a .json file.";
+                
                 fileNameSpan1.style.color = 'red';
                 convertBtn.disabled = true;
             }
